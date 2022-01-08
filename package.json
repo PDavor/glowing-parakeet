@@ -1,10 +1,9 @@
 {
   "name": "glowing-parakeet",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000g\u0000l\u0000o\u0000w\u0000i\u0000n\u0000g\u0000-\u0000p\u0000a\u0000r\u0000a\u0000k\u0000e\u0000e\u0000t\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/config/server.ts",
     "dev": "nodemon -x ts-node src/config/server.ts"
   },
@@ -18,14 +17,12 @@
     "url": "https://github.com/PDavor/glowing-parakeet/issues"
   },
   "homepage": "https://github.com/PDavor/glowing-parakeet#readme",
-  "devDependencies": {
+  "dependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.8",
-    "ts-node-dev": "^1.1.8",
-    "typescript": "^4.5.4"
-  },
-  "dependencies": {
     "express": "^4.17.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
   }
 }
